@@ -1,0 +1,8 @@
+.product-card {
+  max-width: 500px;
+}
+
+.product-card-image {
+  background-image: url('https://www.bonsaiempire.com/images/advanced/guise/001-lord-of-the-rings-landscape.jpg');
+  background-size: cover;
+}
