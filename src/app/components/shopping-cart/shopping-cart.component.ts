@@ -16,5 +16,4 @@ export class ShoppingCartComponent implements OnInit {
     this.products = this._productsService.getProducts();
   }
 
-
 }

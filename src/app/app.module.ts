@@ -37,12 +37,12 @@ import { ProductComponent } from './components/product/product.component';
       { path: 'cart', component: ShoppingCartComponent },
       { path: 'about', component: AboutUsComponent },
       { path: 'contact', component: ContactUsComponent },
-      { path: '', redirectTo: '/contact', pathMatch: 'full' },
-      { path: 'productlist', redirectTo: '/products', pathMatch: 'full' },
+      { path: '', redirectTo: '/contact', pathMatch: 'prefix' },
+      { path: 'productlist', redirectTo: '/products', pathMatch: 'prefix' },
 
       //Create 2 more alternate routes to reach the products list page.
-      { path: 'products-list', redirectTo: '/products', pathMatch: 'full' },
-      { path: 'list', redirectTo: '/products', pathMatch: 'full' },
+      { path: 'products-list', redirectTo: '/products', pathMatch: 'prefix' },
+      { path: 'list', redirectTo: '/products', pathMatch: 'prefix' },
 
       // Path for Page Not Found
       { path: '**', component: PageNotFoundComponent },
